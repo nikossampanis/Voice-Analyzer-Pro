@@ -488,7 +488,7 @@ with tab_howto:
 
 **6) Normalize τελευταίο:** peak -1.0 dB
 """)
-
+    )
     st.markdown("</div>", unsafe_allow_html=True)
 
 st.success("Analysis complete ✅  Developed by Nikolaos Sampanis")
