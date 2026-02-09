@@ -475,23 +475,20 @@ with tab_howto:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.subheader("🧠 How to apply in Audacity (workflow)")
     st.write(
-        "**1) Backup του RAW** (Save Project As…)
+        st.write("""
+**1) Backup του RAW** (Save Project As…)
 
-"
-        "**2) High-Pass Filter:** ~70–90 Hz
+**2) High-Pass Filter:** ~70–90 Hz
 
-"
-        "**3) EQ:** Filter Curve EQ → βάλε κουκίδες στις συχνότητες του CSV και κάνε μικρά cuts (1–3 dB)
+**3) EQ:** Filter Curve EQ → βάλε κουκίδες στις συχνότητες του CSV και κάνε μικρά cuts (1–3 dB)
 
-"
-        "**4) Compressor (ψαλτικός):** threshold ~-18 dB, ratio 2:1, attack 0.15–0.20s, release 1.5–2.0s (αφετηρία)
+**4) Compressor (ψαλτικός):** threshold ~-18 dB, ratio 2:1, attack 0.15–0.20s, release 1.5–2.0s
 
-"
-        "**5) Cathedral space:** μετά τα παραπάνω (pre-delay + decay + low wet + filtering)
+**5) Cathedral space:** μετά τα παραπάνω (pre-delay + decay + low wet + filtering)
 
-"
-        "**6) Normalize τελευταίο:** peak -1.0 dB"
-    )
+**6) Normalize τελευταίο:** peak -1.0 dB
+""")
+
     st.markdown("</div>", unsafe_allow_html=True)
 
 st.success("Analysis complete ✅  Developed by Nikolaos Sampanis")
